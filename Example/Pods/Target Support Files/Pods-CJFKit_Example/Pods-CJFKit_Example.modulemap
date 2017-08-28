@@ -1,0 +1,6 @@
+framework module Pods_CJFKit_Example {
+  umbrella header "Pods-CJFKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

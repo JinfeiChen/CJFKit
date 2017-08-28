@@ -1,0 +1,23 @@
+{
+  "name": "CJFKit",
+  "version": "0.1.0",
+  "summary": "A short description of CJFKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jinfei_chen@icloud.com/CJFKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jinfei_chen@icloud.com": "jinfei_chen@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/jinfei_chen@icloud.com/CJFKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CJFKit/Classes/**/*",
+  "public_header_files": "CJFKit/Classes/**/*.h"
+}
