@@ -8,7 +8,7 @@
 
 #import "CJFViewController.h"
 
-#import <CJFKit/CJFTest.h>
+#import <CJFKit/CJFCategories.h>
 
 @interface CJFViewController ()
 
@@ -20,7 +20,7 @@
 {
     [super viewDidLoad];
     
-    [CJFTest sayHello];
+    NSLog(@"%@", [NSString getAppName]);
 }
 
 - (void)didReceiveMemoryWarning

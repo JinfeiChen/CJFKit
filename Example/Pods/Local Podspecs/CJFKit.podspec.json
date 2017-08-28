@@ -1,9 +1,9 @@
 {
   "name": "CJFKit",
-  "version": "0.1.0",
-  "summary": "A short description of CJFKit.",
+  "version": "1.0.0",
+  "summary": "A collection of iOS components.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/jinfei_chen@icloud.com/CJFKit",
+  "homepage": "https://github.com/jinfeiChen/CJFKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "jinfei_chen@icloud.com": "jinfei_chen@icloud.com"
   },
   "source": {
-    "git": "https://github.com/jinfei_chen@icloud.com/CJFKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/jinfeiChen/CJFKit.git",
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
