@@ -14,6 +14,8 @@
 		2278B013AA5EADB3CC1FED099FA276CA /* UIView+CJFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B797B16936A9DC487917BA1CD0CA855F /* UIView+CJFExtension.m */; };
 		23514FED53F02991C042611B3F1E9162 /* UIImageView+CJFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BF171A2A876E638CCF4270B06682B5D /* UIImageView+CJFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29E799B975B8CE3179173BA2A9216348 /* NSDictionary+CJFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C759E1FC4533E0350F4B8917F86A1D /* NSDictionary+CJFExtension.m */; };
+		3770EAB31F551F2100F57145 /* CJFTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3770EAB11F551F2100F57145 /* CJFTest.h */; };
+		3770EAB41F551F2100F57145 /* CJFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3770EAB21F551F2100F57145 /* CJFTest.m */; };
 		4896F5A8AB44F8D513A5762D90BFCC98 /* UIImage+CJFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A31C2FBE826662762776C34EDFD95BAE /* UIImage+CJFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E658DAF4A32A016598C14AAC283EB33 /* CJFTouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D2E8E6B3F0E5952FD58F689913072E /* CJFTouchID.m */; };
 		62BA9F8FC418D446DE4F33BA10B9AFB2 /* UIView+CJFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 611ECD1E6C35C5D5F19DBEDC09FE0E99 /* UIView+CJFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -62,7 +64,7 @@
 /* Begin PBXFileReference section */
 		0012743A39EDD51FC27E843B6F1A314D /* UIColor+CJFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CJFExtension.m"; sourceTree = "<group>"; };
 		0387F0091890102CE29AC29279C0E695 /* Pods-CJFKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJFKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0605141B418E2DC787B4C3A43B5D1663 /* Pods-CJFKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CJFKit_Example.modulemap"; sourceTree = "<group>"; };
+		0605141B418E2DC787B4C3A43B5D1663 /* Pods-CJFKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CJFKit_Example.modulemap"; sourceTree = "<group>"; };
 		0BF171A2A876E638CCF4270B06682B5D /* UIImageView+CJFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CJFExtension.h"; sourceTree = "<group>"; };
 		0EEBD63333800B3186865F2308B7787A /* Pods-CJFKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJFKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0FBBB23023AB905FC747F73C628F5CE2 /* Pods-CJFKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CJFKit_Example-resources.sh"; sourceTree = "<group>"; };
@@ -74,18 +76,20 @@
 		2A74F48A27A06AEFBF76763C40480D01 /* UIButton+CJFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CJFExtension.m"; sourceTree = "<group>"; };
 		2A817B3386AF6FD76DDE51BA7282C59B /* CJFError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CJFError.h; sourceTree = "<group>"; };
 		2AA6A83DEEB239CFD6AEE12AFC2BD9A5 /* UILabel+CJFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CJFExtension.m"; sourceTree = "<group>"; };
-		2E4D9788C28D8505FEDC4CB9F5E95663 /* CJFKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CJFKit.modulemap; sourceTree = "<group>"; };
+		2E4D9788C28D8505FEDC4CB9F5E95663 /* CJFKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CJFKit.modulemap; sourceTree = "<group>"; };
 		322FD32621898151C3CDD030303AAF40 /* NSString+CJFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+CJFExtension.h"; sourceTree = "<group>"; };
 		34D52DA5375BCE7CE477C9B2FE7EAD3F /* NSData+CJFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+CJFExtension.m"; sourceTree = "<group>"; };
+		3770EAB11F551F2100F57145 /* CJFTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJFTest.h; sourceTree = "<group>"; };
+		3770EAB21F551F2100F57145 /* CJFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJFTest.m; sourceTree = "<group>"; };
 		386F3B7BB40E847757955AB991D1634D /* Pods-CJFKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJFKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4AE94803AC2D9874EF2E06EA176F98B2 /* CJFTouchID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CJFTouchID.h; sourceTree = "<group>"; };
 		4BA14C9D2D79AACAD96746512BCBB00D /* UIScrollView+CJFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CJFExtension.m"; sourceTree = "<group>"; };
-		4D219A1A85B1800C809489D1A30D35B2 /* Pods-CJFKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CJFKit_Tests.modulemap"; sourceTree = "<group>"; };
+		4D219A1A85B1800C809489D1A30D35B2 /* Pods-CJFKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CJFKit_Tests.modulemap"; sourceTree = "<group>"; };
 		4D2F7ED77B69310C4D44E42D572B5EC3 /* NSDictionary+CJFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CJFExtension.h"; sourceTree = "<group>"; };
 		511AF4F19172A37A559322475967828B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55613221B1FA91630BB992BB3918AE48 /* UIImageView+CJFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CJFExtension.m"; sourceTree = "<group>"; };
 		5D45EB28EB756521B3115CD748653113 /* UIScrollView+CJFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CJFExtension.h"; sourceTree = "<group>"; };
-		5D972A4766841C9B886572A567836C02 /* Pods_CJFKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CJFKit_Example.framework; path = "Pods-CJFKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D972A4766841C9B886572A567836C02 /* Pods_CJFKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJFKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		611ECD1E6C35C5D5F19DBEDC09FE0E99 /* UIView+CJFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+CJFExtension.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		677471812479175277AE21857A4ABD1F /* NSData+CJFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+CJFExtension.h"; sourceTree = "<group>"; };
@@ -99,7 +103,7 @@
 		80988197DBD4396F4E1DFAD4A8FA9FE0 /* CJFKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJFKit-prefix.pch"; sourceTree = "<group>"; };
 		8FC9FFE8B6EEF8BBB3EBEB4C78881A62 /* Pods-CJFKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CJFKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		92C003AAF2D4728D22C7A95C1088019C /* UIButton+CJFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+CJFExtension.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A19B2CA37E08CFF9979D50CB93EEC3E5 /* Pods-CJFKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CJFKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A31C2FBE826662762776C34EDFD95BAE /* UIImage+CJFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+CJFExtension.h"; sourceTree = "<group>"; };
 		A60A3F26BB812D04D5502388EFF2A05B /* UITextField+CJFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+CJFExtension.h"; sourceTree = "<group>"; };
@@ -108,14 +112,14 @@
 		AD2F30551AAAA2314E26EC92946E118D /* Pods-CJFKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CJFKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		B797B16936A9DC487917BA1CD0CA855F /* UIView+CJFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+CJFExtension.m"; sourceTree = "<group>"; };
 		B7D2E8E6B3F0E5952FD58F689913072E /* CJFTouchID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CJFTouchID.m; sourceTree = "<group>"; };
-		B9F3ED63E02D24028D9528C56B46D3B5 /* CJFKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CJFKit.framework; path = CJFKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9F3ED63E02D24028D9528C56B46D3B5 /* CJFKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CJFKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFACD348C5CA732AD8B7B29CB6073D94 /* Pods-CJFKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CJFKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		C38C332086ABA1522A113FEFD2CC6AC9 /* UILabel+CJFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+CJFExtension.h"; sourceTree = "<group>"; };
 		C3F403067F5021F61CF9707E6C4803B6 /* NSDate+CJFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CJFExtension.m"; sourceTree = "<group>"; };
 		C6BCF5C0FF36949CDA72E135069771FD /* Pods-CJFKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJFKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D1E46C25A123C20166BA75FFDFE2945A /* NSArray+CJFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CJFExtension.m"; sourceTree = "<group>"; };
 		DF09E7C4E810594107386EE18FF1D213 /* NSArray+CJFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+CJFExtension.h"; sourceTree = "<group>"; };
-		ECEFEB148B8BAEF3FC9CB1D1DC8FB5A8 /* Pods_CJFKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CJFKit_Tests.framework; path = "Pods-CJFKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEFEB148B8BAEF3FC9CB1D1DC8FB5A8 /* Pods_CJFKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJFKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDEC5C25406A211D7825300E2AE17457 /* CJFCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CJFCategories.h; sourceTree = "<group>"; };
 		F2455077AA7D031CEF3EDF1FB9A4043C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5340BA1E9CBAA50285D7F617BE956CB /* UIImage+CJFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CJFExtension.m"; sourceTree = "<group>"; };
@@ -178,6 +182,15 @@
 				ECEFEB148B8BAEF3FC9CB1D1DC8FB5A8 /* Pods_CJFKit_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3770EAB01F551F1300F57145 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				3770EAB11F551F2100F57145 /* CJFTest.h */,
+				3770EAB21F551F2100F57145 /* CJFTest.m */,
+			);
+			path = test;
 			sourceTree = "<group>";
 		};
 		44F279356FE3D014A205E7C843F8A2FF /* Support Files */ = {
@@ -248,7 +261,6 @@
 				4AE94803AC2D9874EF2E06EA176F98B2 /* CJFTouchID.h */,
 				B7D2E8E6B3F0E5952FD58F689913072E /* CJFTouchID.m */,
 			);
-			name = CJFClasses;
 			path = CJFClasses;
 			sourceTree = "<group>";
 		};
@@ -309,13 +321,13 @@
 				611ECD1E6C35C5D5F19DBEDC09FE0E99 /* UIView+CJFExtension.h */,
 				B797B16936A9DC487917BA1CD0CA855F /* UIView+CJFExtension.m */,
 			);
-			name = CJFCategories;
 			path = CJFCategories;
 			sourceTree = "<group>";
 		};
 		EAAEAD70AA188635911A467699692DF3 /* CJFKit */ = {
 			isa = PBXGroup;
 			children = (
+				3770EAB01F551F1300F57145 /* test */,
 				B56FF129654D6EB3E3F2B0D642CA02FC /* .. */,
 				44F279356FE3D014A205E7C843F8A2FF /* Support Files */,
 			);
@@ -352,6 +364,7 @@
 				4896F5A8AB44F8D513A5762D90BFCC98 /* UIImage+CJFExtension.h in Headers */,
 				23514FED53F02991C042611B3F1E9162 /* UIImageView+CJFExtension.h in Headers */,
 				05320C0A8F130EACED45FFDBABF362AE /* UILabel+CJFExtension.h in Headers */,
+				3770EAB31F551F2100F57145 /* CJFTest.h in Headers */,
 				EA0847EC8746D6CB9C0C0562D5030441 /* UIScrollView+CJFExtension.h in Headers */,
 				D404B7E627DDF33A525BDA9C1D38963A /* UITextField+CJFExtension.h in Headers */,
 				62BA9F8FC418D446DE4F33BA10B9AFB2 /* UIView+CJFExtension.h in Headers */,
@@ -471,6 +484,7 @@
 				29E799B975B8CE3179173BA2A9216348 /* NSDictionary+CJFExtension.m in Sources */,
 				97C0A5D0FCB3B27C44C28E865B942EBD /* NSString+CJFExtension.m in Sources */,
 				761A60F4C566423739E9C74CF6558DD7 /* UIButton+CJFExtension.m in Sources */,
+				3770EAB41F551F2100F57145 /* CJFTest.m in Sources */,
 				C97005FC8F696765D1437F429E027CBB /* UIColor+CJFExtension.m in Sources */,
 				7D603BF2C1408FBFD19AC6D72B2E0808 /* UIImage+CJFExtension.m in Sources */,
 				0A72C2EDC7A804DB8CC5E4CF55194E1C /* UIImageView+CJFExtension.m in Sources */,
