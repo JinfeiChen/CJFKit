@@ -1,14 +1,14 @@
 //
-//  UIView+JFExtension.m
+//  UIView+CJFExtension.m
 //  CJF
 //
 //  Created by cjf on 2017/5/9.
 //  Copyright © 2017年 Jinfei Chen. All rights reserved.
 //
 
-#import "UIView+JFExtension.h"
+#import "UIView+CJFExtension.h"
 
-@implementation UIView (JFExtension)
+@implementation UIView (CJFExtension)
 
 - (void)clearAllSubviews {
     
@@ -34,7 +34,7 @@
 @end
 
 
-@implementation UIView (JFFrame)
+@implementation UIView (CJFFrame)
 
 #pragma mark - Setter
 
@@ -109,7 +109,7 @@
 @end
 
 
-@implementation UIView (JFScreenshot)
+@implementation UIView (CJFScreenshot)
 
 - (UIImage *)screenshot {
     

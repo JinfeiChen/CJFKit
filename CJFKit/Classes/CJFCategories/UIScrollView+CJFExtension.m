@@ -1,14 +1,14 @@
 //
-//  UIScrollView+JFExtension.m
+//  UIScrollView+CJFExtension.m
 //  CJF
 //
 //  Created by cjf on 2017/5/25.
 //  Copyright © 2017年 Jinfei Chen. All rights reserved.
 //
 
-#import "UIScrollView+JFExtension.h"
+#import "UIScrollView+CJFExtension.h"
 
-@implementation UIScrollView (JFExtension)
+@implementation UIScrollView (CJFExtension)
 
 #pragma mark - Setter
 

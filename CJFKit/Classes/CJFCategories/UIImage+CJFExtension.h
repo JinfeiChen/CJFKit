@@ -1,5 +1,5 @@
 //
-//  UIImage+JFExtension.h
+//  UIImage+CJFExtension.h
 //  CJF
 //
 //  Created by cjf on 2017/5/9.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (JFExtension)
+@interface UIImage (CJFExtension)
 
 /**
  CJF - 获取图片上某一点上的颜色

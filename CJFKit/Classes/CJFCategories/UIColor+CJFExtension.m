@@ -1,14 +1,14 @@
 //
-//  UIColor+JFExtension.m
+//  UIColor+CJFExtension.m
 //  CJF
 //
 //  Created by cjf on 2017/5/9.
 //  Copyright © 2017年 Jinfei Chen. All rights reserved.
 //
 
-#import "UIColor+JFExtension.h"
+#import "UIColor+CJFExtension.h"
 
-@implementation UIColor (JFExtension)
+@implementation UIColor (CJFExtension)
 
 + (UIColor *)randomColor {
     

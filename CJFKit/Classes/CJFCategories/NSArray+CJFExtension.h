@@ -1,5 +1,5 @@
 //
-//  NSArray+JFExtension.h
+//  NSArray+CJFExtension.h
 //  CJF
 //
 //  Created by cjf on 2017/5/9.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSArray (JFExtension)
+@interface NSArray (CJFExtension)
 
 /**
  CJF - 将 数组 转 json格式字符串
@@ -26,7 +26,7 @@
 
 @end
 
-@interface NSArray (JFSort)
+@interface NSArray (CJFSort)
 
 /**
  CJF - 顺序排序中文数组

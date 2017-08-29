@@ -1,5 +1,5 @@
 //
-//  UIImageView+JFExtension.h
+//  UIImageView+CJFExtension.h
 //  CJF
 //
 //  Created by cjf on 2017/5/11.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImageView (JFExtension)
+@interface UIImageView (CJFExtension)
 
 /**
  CJF - 增加模糊滤镜效果

@@ -1,14 +1,14 @@
 //
-//  NSArray+JFExtension.m
+//  NSArray+CJFExtension.m
 //  CJF
 //
 //  Created by cjf on 2017/5/9.
 //  Copyright © 2017年 Jinfei Chen. All rights reserved.
 //
 
-#import "NSArray+JFExtension.h"
+#import "NSArray+CJFExtension.h"
 
-@implementation NSArray (JFExtension)
+@implementation NSArray (CJFExtension)
 
 - (NSString *)toJsonString {
     
@@ -36,7 +36,7 @@
 
 @end
 
-@implementation NSArray (JFSort)
+@implementation NSArray (CJFSort)
 
 + (NSArray *)sortedWithChineseArray:(NSArray *)chineseArray {
     

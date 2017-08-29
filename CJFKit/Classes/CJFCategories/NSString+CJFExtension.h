@@ -1,5 +1,5 @@
 //
-//  NSString+JFExtension.h
+//  NSString+CJFExtension.h
 //  CJF
 //
 //  Created by cjf on 2017/5/9.
@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSString (JFExtension)
+@interface NSString (CJFExtension)
 
 /**
  CJF - 随机字符串 [高效费舍尔茨洗牌]
@@ -46,7 +46,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 
-@interface NSString (JFValidate)
+@interface NSString (CJFValidate)
 
 /**
  CJF - 输入正则表达式 匹配 字符串
@@ -138,7 +138,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 
-@interface NSString (JFFormat)
+@interface NSString (CJFFormat)
 
 /**
  CJF - 格式化：手机号码的显示 188 8888 8888
@@ -180,7 +180,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 
-@interface NSString (JFCalculate)
+@interface NSString (CJFCalculate)
 
 /**
  CJF - 根据 字体大小、显示区域宽度、行距 计算文字高度
@@ -195,7 +195,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 
-@interface NSString (JFTime)
+@interface NSString (CJFTime)
 
 /**
  CJF - 通过时间戳计算与当前的时间差
@@ -227,7 +227,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 
-@interface NSString (JFEncryption)
+@interface NSString (CJFEncryption)
 
 /**
  CJF - MD5加密 字符串
@@ -247,7 +247,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 
-@interface NSString (JFDevice)
+@interface NSString (CJFDevice)
 
 /**
  CJF - 获取BundleId

@@ -1,16 +1,14 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
+//
+//  CJFCategories.h
+//  Pods
+//
+//  Created by cjf on 2017/8/28.
+//
+//
 
-#import "CJFCategories.h"
+#ifndef CJFCategories_h
+#define CJFCategories_h
+
 #import "NSArray+CJFExtension.h"
 #import "NSData+CJFExtension.h"
 #import "NSDate+CJFExtension.h"
@@ -24,9 +22,5 @@
 #import "UIScrollView+CJFExtension.h"
 #import "UITextField+CJFExtension.h"
 #import "UIView+CJFExtension.h"
-#import "CJFError.h"
-#import "CJFTouchID.h"
 
-FOUNDATION_EXPORT double CJFKitVersionNumber;
-FOUNDATION_EXPORT const unsigned char CJFKitVersionString[];
-
+#endif /* CJFCategories_h */

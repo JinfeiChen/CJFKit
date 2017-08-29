@@ -1,5 +1,5 @@
 //
-//  NSData+JFExtension.h
+//  NSData+CJFExtension.h
 //  CJF
 //
 //  Created by cjf on 2017/5/25.
@@ -8,12 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSData (JFExtension)
+@interface NSData (CJFExtension)
 
 @end
 
 
-@interface NSData (JFEncryption)
+@interface NSData (CJFEncryption)
 
 /**
  CJF - base64加密数据

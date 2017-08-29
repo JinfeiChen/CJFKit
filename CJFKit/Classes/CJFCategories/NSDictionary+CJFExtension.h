@@ -1,5 +1,5 @@
 //
-//  NSDictionary+JFExtension.h
+//  NSDictionary+CJFExtension.h
 //  CJF
 //
 //  Created by cjf on 2017/5/9.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDictionary (JFExtension)
+@interface NSDictionary (CJFExtension)
 
 /**
  CJF - 将 字典 转 json格式字符串

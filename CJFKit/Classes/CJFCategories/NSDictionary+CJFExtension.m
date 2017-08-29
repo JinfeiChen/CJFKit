@@ -1,14 +1,14 @@
 //
-//  NSDictionary+JFExtension.m
+//  NSDictionary+CJFExtension.m
 //  CJF
 //
 //  Created by cjf on 2017/5/9.
 //  Copyright © 2017年 Jinfei Chen. All rights reserved.
 //
 
-#import "NSDictionary+JFExtension.h"
+#import "NSDictionary+CJFExtension.h"
 
-@implementation NSDictionary (JFExtension)
+@implementation NSDictionary (CJFExtension)
 
 - (NSString *)toJsonString {
     

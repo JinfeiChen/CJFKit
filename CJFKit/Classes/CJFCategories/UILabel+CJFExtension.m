@@ -1,14 +1,14 @@
 //
-//  UILabel+JFExtension.m
+//  UILabel+CJFExtension.m
 //  CJF
 //
 //  Created by cjf on 2017/5/12.
 //  Copyright © 2017年 Jinfei Chen. All rights reserved.
 //
 
-#import "UILabel+JFExtension.h"
+#import "UILabel+CJFExtension.h"
 
-@implementation UILabel (JFExtension)
+@implementation UILabel (CJFExtension)
 
 - (CGFloat)autoHeight {
     

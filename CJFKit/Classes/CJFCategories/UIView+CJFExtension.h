@@ -1,5 +1,5 @@
 //
-//  UIView+JFExtension.h
+//  UIView+CJFExtension.h
 //  CJF
 //
 //  Created by cjf on 2017/5/9.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (JFExtension)
+@interface UIView (CJFExtension)
 
 /**
  CJF - 清除所有子视图
@@ -25,7 +25,7 @@
 @end
 
 
-@interface UIView (JFFrame)
+@interface UIView (CJFFrame)
 
 @property (nonatomic, assign) CGFloat x;      /**< CJF - 获取UIView对象的origin.x的值 */
 @property (assign, nonatomic) CGFloat y;      /**< CJF - 获取UIView对象的origin.y的值 */
@@ -37,7 +37,7 @@
 @end
 
 
-@interface UIView (JFScreenshot)
+@interface UIView (CJFScreenshot)
 
 /**
  CJF - 应用于UIView截图

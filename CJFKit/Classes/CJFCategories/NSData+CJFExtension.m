@@ -1,21 +1,21 @@
 //
-//  NSData+JFExtension.m
+//  NSData+CJFExtension.m
 //  CJF
 //
 //  Created by cjf on 2017/5/25.
 //  Copyright © 2017年 Jinfei Chen. All rights reserved.
 //
 
-#import "NSData+JFExtension.h"
+#import "NSData+CJFExtension.h"
 #include <CommonCrypto/CommonCrypto.h>
 
-@implementation NSData (JFExtension)
+@implementation NSData (CJFExtension)
 
 @end
 
 static const char base64EncodingTable[64] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 
-@implementation NSData (JFEncryption)
+@implementation NSData (CJFEncryption)
 
 - (NSString *)base64 {
     

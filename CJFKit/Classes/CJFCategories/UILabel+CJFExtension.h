@@ -1,5 +1,5 @@
 //
-//  UILabel+JFExtension.h
+//  UILabel+CJFExtension.h
 //  CJF
 //
 //  Created by cjf on 2017/5/12.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UILabel (JFExtension)
+@interface UILabel (CJFExtension)
 
 /**
  CJF - 自适应高度

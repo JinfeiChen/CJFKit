@@ -1,5 +1,5 @@
 //
-//  UITextField+JFExtension.h
+//  UITextField+CJFExtension.h
 //  CJF
 //
 //  Created by cjf on 2017/5/11.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UITextField (JFExtension)
+@interface UITextField (CJFExtension)
 
 /**
  CJF - 设置textField占位文字的颜色

@@ -1,15 +1,15 @@
 //
-//  NSString+JFExtension.m
+//  NSString+CJFExtension.m
 //  CJF
 //
 //  Created by cjf on 2017/5/9.
 //  Copyright © 2017年 Jinfei Chen. All rights reserved.
 //
 
-#import "NSString+JFExtension.h"
+#import "NSString+CJFExtension.h"
 
 #import <CommonCrypto/CommonDigest.h>
-#import "NSData+JFExtension.h"
+#import "NSData+CJFExtension.h"
 
 #import "sys/utsname.h"
 #import <AdSupport/AdSupport.h>
@@ -24,7 +24,7 @@
 #import <arpa/inet.h>
 #import <net/if.h>
 
-@implementation NSString (JFExtension)
+@implementation NSString (CJFExtension)
 
 + (NSString *)randomString {
     
@@ -119,7 +119,7 @@
 
 #pragma mark - Validation
 
-@implementation NSString (JFValidate)
+@implementation NSString (CJFValidate)
 
 - (BOOL)isValidateWithRegExp:(NSString *)regExpx {
     
@@ -221,7 +221,7 @@
 
 #pragma mark - Format
 
-@implementation NSString (JFFormat)
+@implementation NSString (CJFFormat)
 
 - (NSString *)formatMobileNumber {
     
@@ -286,7 +286,7 @@
 
 #pragma mark - Calculate
 
-@implementation NSString (JFCalculate)
+@implementation NSString (CJFCalculate)
 
 - (CGFloat)heightWithFont:(UIFont *)font lineSpacing:(CGFloat)lineSpacing width:(CGFloat)width {
     
@@ -314,7 +314,7 @@
 
 #pragma mark - Time
 
-@implementation NSString (JFTime)
+@implementation NSString (CJFTime)
 
 + (NSString *)compareCurrentTime: (NSTimeInterval)compareDate {
     
@@ -395,7 +395,7 @@
 
 #pragma mark - Encryption
 
-@implementation NSString (JFEncryption)
+@implementation NSString (CJFEncryption)
 // #import <CommonCrypto/CommonDigest.h>
 
 - (NSString *)md5 {
@@ -421,7 +421,7 @@
 @end
 
 
-@implementation NSString (JFDevice)
+@implementation NSString (CJFDevice)
 
 + (NSString *)getBundleId {
     

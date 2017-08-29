@@ -1,14 +1,14 @@
 //
-//  UIImageView+JFExtension.m
+//  UIImageView+CJFExtension.m
 //  CJF
 //
 //  Created by cjf on 2017/5/11.
 //  Copyright © 2017年 Jinfei Chen. All rights reserved.
 //
 
-#import "UIImageView+JFExtension.h"
+#import "UIImageView+CJFExtension.h"
 
-@implementation UIImageView (JFExtension)
+@implementation UIImageView (CJFExtension)
 
 - (void)addBlurEffectWithStyle:(UIBlurEffectStyle)style {
     

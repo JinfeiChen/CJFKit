@@ -1,5 +1,5 @@
 //
-//  NSDate+JFExtension.h
+//  NSDate+CJFExtension.h
 //  CJF
 //
 //  Created by cjf on 2017/5/25.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSDate (JFExtension)
+@interface NSDate (CJFExtension)
 
 @property (nonatomic, readonly) NSInteger year;       /**< CJF - 年 */
 @property (nonatomic, readonly) NSInteger month;      /**< CJF - 月 (1~12) */
@@ -22,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface NSDate (JFValidate)
+@interface NSDate (CJFValidate)
 
 /**
  CJF - 验证时间是否是今天

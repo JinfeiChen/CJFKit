@@ -8,7 +8,7 @@
 
 #import "CJFViewController.h"
 
-#import <CJFKit/CJFCategories.h>
+#import <CJFKit/CJFKit-umbrella.h>
 
 @interface CJFViewController ()
 
@@ -20,7 +20,7 @@
 {
     [super viewDidLoad];
     
-    NSLog(@"%@", [NSString getAppName]);
+    NSLog(@"%@", [NSString getBundleId]);
 }
 
 - (void)didReceiveMemoryWarning

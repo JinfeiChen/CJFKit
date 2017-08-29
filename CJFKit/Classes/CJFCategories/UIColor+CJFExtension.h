@@ -1,5 +1,5 @@
 //
-//  UIColor+JFExtension.h
+//  UIColor+CJFExtension.h
 //  CJF
 //
 //  Created by cjf on 2017/5/9.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIColor (JFExtension)
+@interface UIColor (CJFExtension)
 
 /**
  CJF - 获取随机颜色

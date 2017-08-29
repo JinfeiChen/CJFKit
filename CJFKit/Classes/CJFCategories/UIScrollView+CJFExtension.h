@@ -1,5 +1,5 @@
 //
-//  UIScrollView+JFExtension.h
+//  UIScrollView+CJFExtension.h
 //  CJF
 //
 //  Created by cjf on 2017/5/25.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIScrollView (JFExtension)
+@interface UIScrollView (CJFExtension)
 
 @property (assign, nonatomic) CGFloat insetTop;      /**< CJF - 内容视图上内边距 */
 @property (assign, nonatomic) CGFloat insetBottom;   /**< CJF - 内容视图底内边距 */

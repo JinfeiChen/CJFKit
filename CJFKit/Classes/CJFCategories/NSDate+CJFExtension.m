@@ -1,14 +1,14 @@
 //
-//  NSDate+JFExtension.m
+//  NSDate+CJFExtension.m
 //  CJF
 //
 //  Created by cjf on 2017/5/25.
 //  Copyright © 2017年 Jinfei Chen. All rights reserved.
 //
 
-#import "NSDate+JFExtension.h"
+#import "NSDate+CJFExtension.h"
 
-@implementation NSDate (JFExtension)
+@implementation NSDate (CJFExtension)
 
 - (NSInteger)year {
     return [[[NSCalendar currentCalendar] components:NSCalendarUnitYear fromDate:self] year];
@@ -41,7 +41,7 @@
 @end
 
 
-@implementation NSDate (JFValidate)
+@implementation NSDate (CJFValidate)
 
 - (BOOL)isToday {
     if (fabs(self.timeIntervalSinceNow) >= 60 * 60 * 24) {
