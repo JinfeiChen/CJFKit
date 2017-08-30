@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'CJFKit/Classes/**/*'
+  s.source_files = 'CJFKit/Classes/**/*','CJFKit/test/**/*'
   
   # s.resource_bundles = {
   #   'CJFKit' => ['CJFKit/Assets/*.png']
